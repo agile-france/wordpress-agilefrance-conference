@@ -1,0 +1,122 @@
+/*
+Theme Name:     Twenty Eleven Agile France customization
+Theme URI:      http://agile-france.org/
+Description:    Agile France child theme for the Twenty Eleven theme 
+Author:         Eric Le Merdy
+Author URI:     http://eric.lemerdy.free.fr
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+#branding hgroup {
+	background-image: url('images/AgileFranceConference2012-logo.png');
+	background-repeat: no-repeat;
+	background-size: 150px;
+}
+
+#site-description {
+	/* Replace margin by padding for parent-background to be displayed. */ 
+	margin: 0;
+	padding-bottom: 3.65625em;
+	text-indent: -9999px;
+}
+
+#site-title {
+	margin-top: 15px;
+	text-indent: -9999px;
+}
+
+/* CPT-Speakers ------------------------------------*/
+
+#speakers {
+    font-size: 12px;
+    min-height: 300px;
+}
+
+#speaker_image_section {
+    width: 150px;
+    float: left;
+    min-height: 300px;
+    margin-right: 18px;
+}
+
+#speaker_image img {
+    margin-top: 5px;
+    border: 1px solid #333;
+    padding: 3px;
+    background: #0099cc;
+}
+
+#speaker_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#speaker_url {
+    text-align: center;
+}
+
+#speaker_twitter_url {
+    text-align: center;
+}
+
+#speaker_pres_title {
+    margin: 5px 0px 5px 0px;
+    font-size: 13px;
+}
+
+#speaker_pres_description {
+    font-size: 12px;
+    font-family: arial, helvetica;
+    line-height: 16px;
+}
+
+#speaker_session_description {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#speaker_image_section_single {
+    width: 150px;
+    float: left;
+    height: 600px;
+    margin-right: 18px;
+}
+
+#speaker_image_section_single img{
+    margin-top: 5px;
+    border: 1px solid #333;
+    padding: 3px;
+    background: #0099cc;
+}
+
+#pres_url {
+    text-align: center;
+}
+
+.speaker_snippet .thumbnail {
+    float:left;
+    display:inline;
+    margin-right:10px;
+    border-bottom:0;
+}
+#content .speaker_snippet .thumbnail a {
+    border-bottom:0;
+}
+.speaker_snippet .name {
+    font-weight:bold;
+    line-height:16px;
+}
+.speaker_snippet .title {
+    font-size:0.9em;
+    line-height:15px;
+}
+
+.sessions {
+    float: left;
+    width: 72%;
+}
+/*-----------------------------------*/
