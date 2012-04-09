@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Twitter Goodies
-Plugin URI: http://arpitshah.com/plugins/twitter-goodies/
+Plugin URI: http://netcrunched.com/plugins/twitter-goodies/
 Description: Twitter Goodies plugin will show your tweets under Sidebar Area (Widget), Post and/or Pages. This widget is using Twitter Goodies APIs.
-Version: 7.5.0
-Author: Arpit Shah
-Author URI: http://arpitshah.com
+Version: 7.5.3
+Author: NetCrunched
+Author URI: http://netcrunched.com
 */
 
 /*
-    Copyright (C) 2004-12 ArpitShah.com.
+    Copyright (C) 2012 NetCrunched.com.
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -53,8 +53,6 @@ add_option('wp_twitter_goodies_search_tweet_text', 'ffffff');
 add_option('wp_twitter_goodies_search_links', '4aed05');
 add_option('wp_twitter_goodies_show_sponser_link', '-1');
 add_option('wp_twitter_goodies_search_widget_sidebar_title', 'Twitter Goodies');
-
-
 
 add_option('wp_twitter_goodies_allow_tweet_button', '-1');
 add_option('wp_twitter_goodies_tweet_button_display_page', '-1');
@@ -102,7 +100,7 @@ function wp_twitter_goodies_profile()
 	}
 	else
 	{
-		$sponserlink_profile = '<div align="left">- <a href="http://bit.ly/tweet-goodies" title="Twitter Goodies - Profile Widget" target="_blank"> <font size="1">' . 'Twitter Goodies - Profile' . '</font></a></div>';
+		$sponserlink_profile = '<div align="left">- <a href="http://netcrunched.com/plugins/twitter-goodies/" title="Twitter Goodies - Profile Widget" target="_blank"> <font size="1">' . 'Twitter Goodies - Profile' . '</font></a></div>';
 	}
 
 	if (get_option('wp_twitter_goodies_scrollbar') == 1){
@@ -296,7 +294,7 @@ function wp_twitter_goodies_search()
 	}
 	else
 	{
-		$sponserlink_search = '<div align="left">- <a href="http://bit.ly/tweet-goodies" title="Twitter Goodies - Search Widget" target="_blank"> <font size="1">' . 'Twitter Goodies - Search' . '</font></a></div>';
+		$sponserlink_search = '<div align="left">- <a href="http://netcrunched.com/plugins/twitter-goodies/" title="Twitter Goodies - Search Widget" target="_blank"> <font size="1">' . 'Twitter Goodies - Search' . '</font></a></div>';
 	}
 
 		if (get_option('wp_twitter_goodies_search_scrollbar') == 1){
@@ -426,6 +424,8 @@ function wp_twitter_goodies_options_page() {
 
 	<div id="poststuff" class="metabox-holder has-right-sidebar" >
 		<div style="float:left;width:60%;">
+
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FNetCrunched%2F310777122307297&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
 
 			<div class="postbox">
 				<h3>1) Official Twitter's <font color="red">Tweet Button</font> Integration <?=$new_icon?></h3>
@@ -701,9 +701,17 @@ function wp_twitter_goodies_options_page() {
 				  <h3 class="hndle"><span>Twitter Goodies</span></h3>
 				  <div class="inside">
 	                <ul>
-	                <li><a href="http://arpitshah.com/plugins/twitter-goodies/" title="Twitter Goodies" target="_blank">Plugin Homepage</a></li>
+	                <li><a href="http://netcrunched.com/plugins/twitter-goodies/" title="Twitter Goodies" target="_blank">Plugin Homepage</a></li>
 	                </ul>
 	              </div>
+
+<div class="inside">
+<b>Subscribe to get latest update:</b>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FNetCrunched%2F310777122307297&amp;width=292&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/NetCrunched" class="twitter-follow-button" data-show-count="false">Follow @NetCrunched</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
 				</div>
      </div>
           <br>
@@ -712,11 +720,11 @@ function wp_twitter_goodies_options_page() {
 				  <h3 class="hndle"><span>My Other Plugins</span></h3>
 				  <div class="inside">
 					<ul>
-					<li>1) <a href="http://arpitshah.com/plugins/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
-					<li>2) <a href="http://arpitshah.com/plugins/wp-google-buzz/" title="WP Google-buzz" target="_blank">WP Google-buzz</a></li>
-					<li>3) <a href="http://arpitshah.com/plugins/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
-					<li>4) <a href="http://arpitshah.com/plugins/facebook-members/" title="Facebook Members" target="_blank">Facebook Members</a></li>
-					<li>5) <a href="http://arpitshah.com/plugins/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">All in One Webmaster</a></li>
+					<li>1) <a href="http://netcrunched.com/plugins/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
+					<li>2) <a href="http://netcrunched.com/plugins/wp-google-buzz/" title="WP Google-buzz" target="_blank">WP Google-buzz</a></li>
+					<li>3) <a href="http://netcrunched.com/plugins/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
+					<li>4) <a href="http://netcrunched.com/plugins/facebook-members/" title="Facebook Members" target="_blank">Facebook Members</a></li>
+					<li>5) <a href="http://netcrunched.com/plugins/all-in-one-webmaster/" title="All in One Webmaster" target="_blank">All in One Webmaster</a></li>
 					</ul>
 				  </div>
 				</div>

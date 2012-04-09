@@ -1,26 +1,30 @@
 === Twitter Goodies ===
-Contributors: arpitshah
-Tags: Twitter
+Contributors: netcrunched
+Tags: Twitter, Twitter Goodies
 Requires at least: 3.2
 Tested up to: 3.3.1
-Stable tag: 7.5.0
+Stable tag: 7.5.3
 
 Official Tweet Button + Twitter Goodies Profile & Search Widget. Plugin shows your tweets on Page/Post/Widget area.
 
 == Description ==
 Official Tweet Button + Twitter Goodies Profile & Search Widget. Plugin shows your tweets on Page/Post/Widget area.
 
-`* Three main services in ONE plugin:`
-`1) Tweet Button Integration`
-`2) Twitter Goodies - Profile Widget`
-`3) Twitter Goodies - Search Widget`
+**Three main services in ONE plugin:**
+
+* Tweet Button Integration
+* Twitter Goodies - Profile Widget
+* Twitter Goodies - Search Widget
 
 This plugin shows your twitter profile/search tweets under Sidebar Area (Widget), Post and/or Pages. Tweets will `REFRESH AUTOMATICALLY`. Also it has reply option inside widget on mouse over action. Admin panel option available under Settings -> Twitter Goodies to set different color combination and twitter widget options. This twitter widget is using Twitter Goodies APIs. Integrate Post to Twitter option. Best Twitter Tools and nice Twitter Widget GUI.
 
-`* Add both widgets into sidebar - Go to Appearance -> Widgets -> Twitter Goodies`
-`* <!--wp_twitter_goodies-->` - to add Twitter Goodies Profile widget on page/post
-`* <!--wp_twitter_goodies_search-->` - to add Twitter Goodies Search Widget on page/post
-`* Official Twitter's Tweet Button Option: Activate integration option from Admin Panel`
+* Add both widgets into sidebar - Go to Appearance -> Widgets -> Twitter Goodies
+* `<!--wp_twitter_goodies-->` - to add Twitter Goodies Profile widget on page/post
+* `<!--wp_twitter_goodies_search-->` - to add Twitter Goodies Search Widget on page/post
+* Official Twitter's Tweet Button Option: Activate integration option from Admin Panel
+
+<a href="http://netcrunched.com/plugins/twitter-goodies/" target="_blank">Homepage</a>  
+<a href="https://www.facebook.com/NetCrunched" target="_blank">Facebook Page</a>
 
 **Features**
 
@@ -63,8 +67,9 @@ Tags: twitter, twit, tweet, tweets, twitter widget, dynamic twitter widget, auto
 = Can't see your tweets? (blank widget?) =
 * Clear browser Cache and try again. Also, update Twitter Goodies Admin panel option one more time.
 
-= Still have a question? =
-* Please report your questions or bugs at Plugin <a href="http://arpitshah.com/plugins/twitter-goodies/" target="_blank">Homepage</a>. 
+= Got a Question? =
+* Please report your questions or bugs at Plugin <a href="http://netcrunched.com/plugins/twitter-goodies/" target="_blank">Homepage</a> and stay tuned on NetCrunched <a href="https://www.facebook.com/NetCrunched" target="_blank">Facebook Page</a>. 
+* NOTE: I created this plugin as of my personal interest only. 
 
 == Screenshots ==
 1. Sample Twitter Goodies Search Widget
